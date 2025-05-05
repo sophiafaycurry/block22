@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Layout */
+  header, main {
+    padding: 1rem 2rem;
+  }
+  
+  /* Nav Styles */
+  nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  a.show {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  a.show:hover {
+    background-color: #ccc;
+  }
+  
+  /* Episode List */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+    cursor: pointer;
+    padding: 0.4rem;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #eee;
+  }
+  
+  /* Episode Details */
+  div {
+    margin-top: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
